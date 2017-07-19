@@ -1,11 +1,11 @@
 # Basic
-title: Lamwolf Wang
+title: LamwolfWang的个人博客
 subtitle: 编程不止于coding
 # welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
 welcome_message: null
 # description: Vno Jekyll is a port of my Ghost theme vno.
 description: null
-creator: <a href="http://onev.cat">@onevcat</a>
+creator: <a href="#">@lamwolf</a>
 
 # url: "http://vno.onevcat.com"
 url: null
@@ -40,9 +40,7 @@ comment:
     
 # Social
 social:
-    weibo: onevcat
     github: LamWolf
-    twitter: null
     gplus: 111714601787366774693
     mail: lamwolfwang@gmail.com
 
