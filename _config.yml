@@ -1,11 +1,14 @@
 # Basic
-title: Vno Jekyll
-subtitle: A blog-orientation theme for Jekyll
-welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-description: Vno Jekyll is a port of my Ghost theme vno.
+title: Lamwolf Wang
+subtitle: 编程不止于coding
+# welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
+welcome_message: null
+# description: Vno Jekyll is a port of my Ghost theme vno.
+description: null
 creator: <a href="http://onev.cat">@onevcat</a>
 
-url: "http://vno.onevcat.com"
+# url: "http://vno.onevcat.com"
+url: null
 
 permalink: /:year/:month/:title/
 
