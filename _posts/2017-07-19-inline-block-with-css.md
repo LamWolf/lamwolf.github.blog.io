@@ -390,4 +390,32 @@ catalog: true
 
 在这里我们以`vertical-align:middle`为例来做一些布局上的尝试。在进行以下的内容时，默认读者已经了解了基线、中线等行高的基本概念，如果还不熟悉相关知识点，请自行搜索或者点击本小节开始时提供的传送门。
 
-`vertical-align`的默认值为`baseline`，即默认与基线对齐
+还是拿之前设置的几个元素，将文字字号设为100px，并在父元素`<span>`上设置一条辅助线，放在中间以作位置参考，如图：
+
+![](http://otf6ajw74.bkt.clouddn.com/inlineVerticalCode.png)
+![](http://otf6ajw74.bkt.clouddn.com/inlineVertical.png)
+
+我们可以看到，图片和文字是以基线对齐的，这是因为`vertical-align`的默认值为`baseline`，即默认与基线对齐。
+
+在这里，我们可以把图片理解为某种字体中的一个文字，如果我们给图片这个“字体”添加上`vertical-align:middle`的属性，会有怎样的效果呢？如图：
+
+![](http://otf6ajw74.bkt.clouddn.com/inlineVerticalMidImgCode.png)
+![](http://otf6ajw74.bkt.clouddn.com/inlineVerticalMidImg.png)
+
+这个时候可以看到，右侧的文字“浮了上来”，我们看一下现在的布局情况：
+
+![](http://otf6ajw74.bkt.clouddn.com/inlineVerticalMidImgSpan.png)
+
+我们可以看到，现在右侧的`<span>`元素置顶了，我的理解是，因为现在左侧的“文字”与中线对齐，可以把它视为“浮动起来”，右侧的文字其实依然与基线对齐，但是不必再和左侧比它高的“字体”对齐了，所以它升到了顶部。
+
+接下来，我们再给右侧的文字加一个`vertical-align:middle`，如图：
+
+![](http://otf6ajw74.bkt.clouddn.com/inlineVerticalMidAllCode.png)
+![](http://otf6ajw74.bkt.clouddn.com/inlineVerticalMidAll.png)
+
+我们可以看到，右侧的文字也对齐到了中间的部分，为了更准确一些，我们看一下这时右侧`<span>`的范围：
+
+![](http://otf6ajw74.bkt.clouddn.com/inlineVerticalMidAllSpan.png)
+
+如果只看文字，它并没有对齐中线，但实际上，因为字体设计等原因，文字的“中线”并不是元素的“中线”，所以实际上对齐的是各个元素。
+
