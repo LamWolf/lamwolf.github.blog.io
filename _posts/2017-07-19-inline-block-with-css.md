@@ -294,7 +294,8 @@ catalog: true
 * margin & padding
 * float
 * vertical-align
-* line-height* text-align（只有块级元素可以使用）
+* line-height
+* text-align（只有块级元素可以使用）
 * 图片底部留白
 * 元素之间的空白
 
@@ -345,7 +346,7 @@ catalog: true
 
 `margin`和`padding`属性对于行内元素是无效的，所以如果想在行内元素上使用内外边距属性，就必须为行内元素添加`display:inline-block`属性，使其变成一个“胶体”，这样就可以在保持行内元素的特性下，设置内外边距。
 
-这个属性主要的坑在于该属性在何时才会生效，当清楚其适用范围之后，该属性就会变得十分容易操作，所以在这里就不再多讲了。
+这个样式的坑主要在于该属性在何时才会生效，当清楚其适用范围之后，该属性就会变得十分容易操作，所以在这里就不再多讲了。
 
 <br>
 
@@ -353,4 +354,40 @@ catalog: true
 
 想要对父元素内部的元素进行布局，有一个很便利的方法是采用浮动布局模型（[css几种布局模型](http://www.jianshu.com/p/5f11d3e82d28)）。
 
-当对元素设置了浮动之后，该元素会脱离文档流。这时，该元素会变为弹性元素，即会被内部元素“撑”开，同时，对于`inline`元素来说，可以设置`margin-top`和`margin-bottom`。
+当对元素设置了浮动之后，该元素会脱离文档流。
+
+* 这时，该元素会变为“弹性元素”，即会被内部元素“撑”开。
+* 对于`inline`元素来说，`margin-top`和`margin-bottom`属性将会生效。
+* 在设置浮动后，其兄弟元素中，行内元素会围绕其排列，而块级元素将会无视其存在，占据其原来的位置，具体情况如图：
+
+在未设置浮动之前：
+
+![](http://otf6ajw74.bkt.clouddn.com/inlineUnfloatCode.png)
+![](http://otf6ajw74.bkt.clouddn.com/inlineUnfloat.png)
+
+可以看到`<img>`、`<span>`和`<div>`遵循流动模型的布局方法进行排列。
+
+如果给`<img>`元素设置`float:left`
+
+![](http://otf6ajw74.bkt.clouddn.com/inlineFloatCode.png)
+![](http://otf6ajw74.bkt.clouddn.com/inlineFloat.png)
+
+如图可以看到，`<span>`标签围绕`<img>`元素排列，而`<div>`元素是代替了之前img的位置，与`<span>`元素遵循流动模型布局方式。
+
+<br>
+
+##### vertical-align
+
+`vertical-align`属性对于行内元素的垂直布局是非常关键的两个样式之一（另外一个是`line-height`）。
+
+从字面上看`vertical-align`这个属性，"vertical"的意思是“垂直”，"align"的意思是“对齐”，所以很明显，这个属性起到的作用就是对元素在垂直方向上的对齐调整。
+
+>CSS 的属性 vertical-align 用来指定行内元素（inline）或表格单元格（table-cell）元素的垂直对齐方式。
+
+这是[MDN](https://developer.mozilla.org/zh-CN/)上对[vertical-align属性](https://developer.mozilla.org/zh-CN/docs/Web/CSS/vertical-align)的概述。
+
+`vertical-align`的取值有很多，比如：baseline,sub,super,middle等，我就不在这里赘述了，大家有兴趣可以点上段话中的传送门或自行搜索查看相关文档资料。但是大家需要牢记的一点是，`vertical-align`属性的大部分取值是相对于父元素来说的。
+
+在这里我们以`vertical-align:middle`为例来做一些布局上的尝试。在进行以下的内容时，默认读者已经了解了基线、中线等行高的基本概念，如果还不熟悉相关知识点，请自行搜索或者点击本小节开始时提供的传送门。
+
+`vertical-align`的默认值为`baseline`，即默认与基线对齐
