@@ -24,6 +24,7 @@ catalog: true
 1. 什么是行内元素？
 2. 列举行内元素，对常用元素进行简单说明
 3. 行内元素重要样式
+4. 总结
 
 ## 以下是正文
 
@@ -466,3 +467,21 @@ catalog: true
 ![](http://otf6ajw74.bkt.clouddn.com/inlineImgNoBlock.png)
 
 如果不能设置`line-height`为0，还可以通过设置`font-size`为0来消除空白，不过这样就不能图文混排，具体的就不在这里进行演示了，有兴趣可以自行尝试一下。
+
+<br>
+
+#### 4.总结
+
+本文前前后后大概写了一个多周，中间由于我自己的疏忽导致文档丢失，便从头又写了一遍，耽误了不少时间，如今也终于把之前想要整理和复习的东西都走了一遍，也算是踏出了第一步。从最最基础的内容开始填坑，也是想要稳稳地走好每一步。
+
+本篇文章为本人写的第一篇长文知识梳理，不管是语言组织方面还是知识结构的安排方面，都有许多考虑得不够周全的地方，希望读到本篇文章的各位能够多多谅解，也十分欢迎大家指正我的错误，我会尽快开启本博客的评论功能，如有希望交流的地方可以email我。
+
+
+## 参考网站和文章
+
+* [MDN](https://developer.mozilla.org/zh-CN/)
+* [w3school](http://www.w3school.com.cn/)
+* [更好地书写HTML标签](https://segmentfault.com/a/1190000002695791)
+* [深入理解CSS中的行高与基线](http://blog.csdn.net/lulujiajiawenwen/article/details/8245201)
+* [css几种布局模型](http://www.jianshu.com/p/5f11d3e82d28)
+* [css行高line-height的一些深入理解及应用](http://www.zhangxinxu.com/wordpress/2009/11/css%E8%A1%8C%E9%AB%98line-height%E7%9A%84%E4%B8%80%E4%BA%9B%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E5%8F%8A%E5%BA%94%E7%94%A8/)
