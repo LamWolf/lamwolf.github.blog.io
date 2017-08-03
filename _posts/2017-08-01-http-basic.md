@@ -422,7 +422,7 @@ CONNECT方法要求在与代理服务器通信时建立隧道，实现用隧道�
 * [HTTP协议详解（真的很经典）](http://www.cnblogs.com/li0803/archive/2008/11/03/1324746.html)
 * [http请求的组成部分- 一起走过的日子…… - 博客园](http://www.cnblogs.com/goesby/p/4618982.html)
 * 《技术之瞳》  ——电子工业出版社
-* [第六章HTTP首部 | 图解HTTP - GitBook](https://ttop5.gitbooks.io/illustration-http/content/chapter6.html)
+* [第六章HTTP首部 \| 图解HTTP - GitBook](https://ttop5.gitbooks.io/illustration-http/content/chapter6.html)
 * [HTTP请求方法详解- foodoir - 博客园](http://www.cnblogs.com/foodoir/p/5911099.html)
 * [HTTP协议状态码详解（HTTP Status Code） - 张善友- 博客园](http://www.cnblogs.com/shanyou/archive/2012/05/06/2486134.html)
-* [HTTP response codes | MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Status)
+* [HTTP response codes \| MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Status)
