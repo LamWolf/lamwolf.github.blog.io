@@ -41,7 +41,7 @@ HTTP共经历过0.9,1.0,1.1和2.0（目前最新的版本）共四个版本，HT
 
 ##### URL
 
-URL(Uniform/Universal Resource Locator 的缩写，统一资源定位符)属于URL(Uniform Resource Identifier 的缩写，统一资源标识符)更低层次的抽象，是一种字符串文本标准。
+URL(Uniform/Universal Resource Locator 的缩写，统一资源定位符)属于URI(Uniform Resource Identifier 的缩写，统一资源标识符)更低层次的抽象，是一种字符串文本标准。
 
 也就是说，URI属于父类，而URL属于URI的子类。URL是URI的一个子集。
 
