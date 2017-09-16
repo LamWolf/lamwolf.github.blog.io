@@ -130,4 +130,4 @@ HTTPS在传输数据之前需要客户端（浏览器）与服务端（网站）
 * [HTTP和HTTPS的区别- petercao - 博客园](http://www.cnblogs.com/bluestorm/p/5763533.html)
 * [HTTPS 理论详解与实践- 某熊的全栈之路- SegmentFault](https://segmentfault.com/a/1190000004985253)
 * [SSL/TLS协议运行机制的概述- 阮一峰的网络日志 - 阮一峰的个人网站](http://www.ruanyifeng.com/blog/2014/02/ssl_tls.html)
-* [HTTPS那些事（一）HTTPS原理| 互联网搭车客小组| 果壳网科技有意思](http://www.guokr.com/post/114121/)
+* [HTTPS那些事（一）HTTPS原理\| 互联网搭车客小组\| 果壳网科技有意思](http://www.guokr.com/post/114121/)
