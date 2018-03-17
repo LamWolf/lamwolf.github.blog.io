@@ -8,7 +8,7 @@ tags:
     - server-render
 date: 2018-03-16 15:25:00
 catalog: true
-header-img: "img/post-bg-egg.js"
+header-img: "img/post-bg-egg.jpg"
 ---
 
 ## 写在前面
